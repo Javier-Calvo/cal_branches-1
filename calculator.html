@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Calculaor</title>
+
+<title>Calculator</title>
 <meta charset="utf-8">
 
 <script type="text/javascript">
@@ -9,13 +10,18 @@
 function square() {
 	var num = document.getElementById("n1");
 	num.value = num.value * num.value;
+
+function inverse() {
+	var num = document.getElementById("n1");
+	num.value = 1/num.value;
 }
 </script>
 
 </head>
 <body>
 	Número:
-	<input type="text" id="n1"><p></p>
+	<input type="text" id="n1" onclick="empty"><p></p>
+	<button onclick="inverse()">1/x<sup></button>
 	<button onclick="square()">x<sup>2</sup></button>
 </body>
 </html>
