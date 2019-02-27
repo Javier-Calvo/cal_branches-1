@@ -1,4 +1,1 @@
-$ git status -o
-
-
-Proyecto educativo. Miriadax 2018
+Proyecto educativo. Miriadax 2019
